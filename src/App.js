@@ -1,9 +1,15 @@
-import './App.css';
+import React from "react";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
+import Form from "./components/Form";
 function App() {
   return (
-    <h2>React-Project</h2>
-   );
+    <div className="App">
+      <Navbar />;
+      <Form />
+    </div>
+  );
 }
 
 export default App;

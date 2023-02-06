@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+/* ***********NAVBAR*********  */
+.logo{
+  width: 16.25rem;
+}
+
+/* MENU LINKS */
+nav a.nav-link{
+   font-size: .8rem;
+   letter-spacing: 0.6px;
+   cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav li a{
+  margin-right: 0.75rem;
+  margin: left 0.75rem; ;
+  color: grey;
+  border-top: 0.1875rem ;
+  color: #282c34;
+}
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-top: 0.1875rem solid;
+  color: #ffa600f5;
+}
